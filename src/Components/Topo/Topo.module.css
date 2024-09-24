@@ -2,9 +2,13 @@
     width: 100%;
     height: auto;
     padding: 20px;
+    background-color: #FFF;
+}
+
+.cabecalho{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #FFF;
     align-items: center;
 }
 
@@ -40,5 +44,7 @@
     border: 0.1px solid #FFF;
     background-color: #252525;
 }
+
+
 
 
