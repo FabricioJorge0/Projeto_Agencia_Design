@@ -1,1 +1,44 @@
+.containerHeaderClaro{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    align-items: center;
+}
+
+.containerHeaderEscuro{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+}
+
+.imgLogo{
+    width: 50px;
+    height: 35px;
+}
+
+.iconesBtn{
+    width: 25px;
+    height: 25px;
+}
+
+.btnTemaClaro{
+    padding: 10px;
+    border-radius: 50%;
+    border: 0.1px solid black;
+    background-color: #fff;
+}
+
+.btnTemaEscuro{
+    padding: 10px;
+    border-radius: 50%;
+    border: 0.1px solid #FFF;
+    background-color: #252525;
+}
+
 
