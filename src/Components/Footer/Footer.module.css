@@ -1,0 +1,79 @@
+.footerTemaClaro{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #fff;
+    color: #8a8fa3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+
+.footerTemaEscuro{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #252525;
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMensagem{
+    max-width: 600px;
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.containerMensagem p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.redesSociais{
+    margin-top: 30px;
+    max-width: 375px;
+}
+
+.imagemRedesSociais{
+    width: 45px;
+    height: 45px;
+}
+
+.rodapeClaro{
+    width: 100%;
+    border-top: 1px solid #f1eeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #fff;
+    color: #8a8fa3;
+}
+
+.rodapeClaro span{
+    font-weight: bold;
+}
+
+.rodapeEscuro{
+    width: 100%;
+    border-top: 1px solid #333131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #252525;
+    color: #cccccc;
+}
+
+.rodapeEscuro span{
+    font-weight: bold;
+    color: #feb633;
+}
