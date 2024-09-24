@@ -2,8 +2,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Topo from '@/Components/Topo'
-import React, { useState } from 'react'
+import SecaoBanner from "@/Components/SecaoBanner";
 import Footer from '@/Components/Footer'
+import React, { useState } from 'react'
+
+
 
 export default function Home() {
   const [ehTemaEscuro, setTemaEscuro] = useState(false)
@@ -16,7 +19,7 @@ export default function Home() {
     <div className={styles.page}>
       <Topo acao_onclick={alterarTema} ehTemaEscuro={ehTemaEscuro} />
       <main>
-        
+        <SecaoBanner/>
       </main>
       <Footer ehTemaEscuro={ehTemaEscuro}/>
     </div>

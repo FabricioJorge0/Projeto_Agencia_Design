@@ -1,0 +1,40 @@
+.containerBanner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #fafbfc;
+}
+
+.bannerFundo{
+    width: 50%;
+    background-image: url('../../../Public/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bannerTitulo{
+    padding: 0px 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #022144;
+
+}
+
+.bannerTitulo h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.bannerTitulo p{
+    font-size: 12px;
+}
+
+.bannerTitulo span{
+    font-size: 50px;
+    font-weight: bold;
+}
+

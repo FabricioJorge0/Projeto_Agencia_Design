@@ -1,7 +1,7 @@
 .containerHeaderClaro{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 22px;
     background-color: #FFF;
     position: fixed;
 }
@@ -16,9 +16,10 @@
 .containerHeaderEscuro{
     width: 100%;
     height: auto;
-    padding: 20px;
+
     background-color: #252525;
     position: fixed;
+    padding: 22px;
 }
 
 .imgLogo{
