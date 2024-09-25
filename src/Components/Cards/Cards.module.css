@@ -1,0 +1,49 @@
+.cardsClaro{
+    width: 300px;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cardsClaro span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.cardsClaro h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cardsClaro small{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.cardsClaro p{
+    font: 16px;
+    font-weight: 400;
+}
+
+.cardsClaro{
+    border: 0.1px solid #f3f0f0 ;
+}
+
+.cardsEscuro{
+    border: 0.1px solid #3a3a3a ;
+}
+
+.cardsEscuro{
+    width: 300px;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cardsEscuro:hover{
+    background-color: #fec633;
+    color: black;
+}

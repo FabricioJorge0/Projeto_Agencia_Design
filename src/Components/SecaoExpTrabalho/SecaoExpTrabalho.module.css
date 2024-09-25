@@ -1,0 +1,53 @@
+.expTrabalhoClaro{
+    width: 100%;
+    background-color: #f6f8fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.expTrabalhoEscuro{
+    width: 100%;
+    background-color: #363838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    color: #cccccc;
+}
+
+
+.txtTrabalho{
+    max-width: 768px;
+    text-align: center;
+}
+
+.txtTrabalho h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.txtTrabalho h2::after{
+    background-color: #feb633;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+    
+}
+
+.txtTrabalho p{
+    font-size: 18px;
+    color: #8a8fa3;
+}
+
+.secaoCard{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
