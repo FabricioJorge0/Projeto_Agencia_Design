@@ -8,7 +8,7 @@ export default function SecaoBanner(){
             <div className={style.bannerTitulo}>
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>
                 <h2>Agência de Branding </h2>
-                <span>e design digital</span>
+                <span>e Design digital</span>
             </div>
         </section>
     )
