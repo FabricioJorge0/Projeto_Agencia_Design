@@ -34,7 +34,6 @@
     content: "";
     display: inline-block;
     height: 3px;
-    position: relative;
     vertical-align: middle;
     width: 30%;
     
@@ -46,8 +45,36 @@
 }
 
 .secaoCard{
-    width: 1024px;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768px){
+    .secaoCard{
+        width: 100%;
+        flex-direction: column;
+    }
+    .txtTrabalho h2{
+        font-size: 45px;
+    }
+
+}
+@media (max-width: 650px){
+    .secaoCard{
+        width: 100%;
+        flex-direction: column;
+    }
+    .txtTrabalho h2{
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 425px){
+
+    .txtTrabalho h2{
+        font-size: 25px;
+    }
+
 }

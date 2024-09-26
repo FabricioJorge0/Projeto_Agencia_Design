@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <Topo acao_onclick={alterarTema} ehTemaEscuro={ehTemaEscuro} />
-      <main>
+      <main className={styles.principal}>
         <SecaoBanner/>
         <SecaoExpTrabalho ehTemaEscuro={ehTemaEscuro} />
 

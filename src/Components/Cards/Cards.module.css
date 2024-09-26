@@ -71,3 +71,12 @@
     background-color: #fec633;
     color: black;
 }
+
+@media (max-width: 768px){
+    .cardsEscuro{
+        width: 100%;
+    }
+    .cardsClaro{
+        width: 100%;
+    }
+}
